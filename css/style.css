@@ -1,0 +1,45 @@
+body{
+    background-image: url(../img/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#wrapper{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    opacity: 0.9;
+}
+
+#form-area{
+    height: 60vh;
+    padding: 15px;
+}
+
+input{
+    width: 100%;
+    padding: 5px;
+}
+
+#love-percentage{
+    display: none;
+}
+
+button{
+    width: 40%;
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 5px;
+    text-transform: uppercase;
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+button:hover{
+    background-color: red;
+}
