@@ -1,1 +1,1 @@
-A calculator that caculates the amount of love that two people has for each other.
+A calculator that gives the percentage of love that two person have for each other.
