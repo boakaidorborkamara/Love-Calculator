@@ -28,7 +28,7 @@ function disableCalculateBtn(){
 function sendResult(){
     if(male_name.value !== "" && female_name.value !== ""){
         let percentage_of_love = generateRandomNumber();
-        love_result.innerHTML = `${percentage_of_love}%`;
+        love_result.innerHTML = `${male_name.value} & ${female_name.value} Share ${percentage_of_love}% Love`;
     }
 
     validateInput();
